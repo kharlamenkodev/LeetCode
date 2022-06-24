@@ -7,7 +7,7 @@ class ImplementStrStr
 {
 public:
 
-    int strStr(string haystack, string needle) 
+    int strStr(const string& haystack, const string& needle) const
     {
         for (auto i = 0; i < haystack.size(); i++)
         {
