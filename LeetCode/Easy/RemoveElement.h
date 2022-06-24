@@ -8,7 +8,7 @@ class RemoveElement
 
 public:
 
-    int removeElement(vector<int>& nums, int val) 
+    int removeElement(vector<int>& nums, const int val) 
     {
         auto it = nums.begin();
 
