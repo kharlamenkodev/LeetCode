@@ -19,7 +19,6 @@ public:
 				if (it == digits.rend()){
 					digits.insert(digits.cbegin(), 1);
 					break;
-
 				}
 				(*it)++;
 			}
