@@ -27,7 +27,6 @@ public:
                     finded = true;
                 }
             }
-
             it++;
         }
 
